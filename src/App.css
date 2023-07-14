@@ -1,0 +1,9 @@
+@import 'open-props/style';
+@import 'open-props/normalize';
+nav>ul{
+  list-style: none; 
+  display: flex
+}
+nav>ul>li{
+  padding: var(--size-4);
+}
