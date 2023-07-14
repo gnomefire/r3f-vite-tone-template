@@ -16,10 +16,12 @@ export const World3d=()=>{
         <>
 
 <PerspectiveCamera/>
-<Text >This is kNOT</Text>
+<Text >This is kNOT
+    <meshBasicMaterial color="blue"/>
+</Text>
 <Scroll>
     <group >
-<Image ref={image1}  url="/wallpapers.png" position={[0,0,-4]} />
+<Image ref={image1}  url="/wallpapers.png" position={[0,0,-4]} scale={[16,9]}/>
 </group>
 </Scroll>
 

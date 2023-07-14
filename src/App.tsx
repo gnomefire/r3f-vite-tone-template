@@ -12,9 +12,9 @@ function App() {
     <>
    
     <main style={{width:"100vw", height:"100vh", background: "transparent"}}>
-      <div><h1>This is  a DOM element</h1></div>
+      <h1>This is a DOM Element</h1>
       <Canvas >
-       <ScrollControls pages={4} damping={0.2} horizontal> 
+       <ScrollControls pages={4}>
         <World3d/>
         <Scroll html>
           <DomInterface/>
